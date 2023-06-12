@@ -14,7 +14,7 @@ contract SimpleStorage {
         string name;
     }
 
-    // dynamic array if you add Person[3} it would be a static array
+    // dynamic array if you add Person[3] it would be a static array
     Person[] public listOfPeople; // []
 
     mapping(string => uint256) public nameToFavorite;
